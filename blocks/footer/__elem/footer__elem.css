@@ -1,0 +1,7 @@
+.footer__elem {
+  margin-left: 18px;
+}
+
+.footer__elem:first-child {
+  margin: 0;
+}
