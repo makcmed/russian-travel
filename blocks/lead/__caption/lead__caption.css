@@ -9,6 +9,12 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #FFF;
   align-self: start;
+}
+
+@media screen and (max-width: 968px) {
+  .lead__caption {
+      margin: 8px auto 0 16px;
+  }
 }
