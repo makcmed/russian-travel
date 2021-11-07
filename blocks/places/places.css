@@ -7,31 +7,31 @@
   padding-bottom: 92px;
 }
 
+@media screen and (min-width: 1280px) {
+  .places {
+    padding-bottom: 85px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 90.625%;
+    max-width: 94%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     gap: 73px;
-    max-width: 93.75%;
-    padding-top: 88px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .places {
-    max-width: 100%;
+    max-width: 75%;
+    padding-top: 77px;
+    padding-bottom: 101px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
     gap: 50px;
-    padding-bottom: 64px;
     padding-top: 64px;
-
+    padding-bottom: 66px;
   }
 }
